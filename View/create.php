@@ -7,9 +7,9 @@ require '../Controler/listmatsansdoc.php';
 <html>
 <head> 
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css"/>
     <title>Creation de documents pour un materiel ou de matériels</title>
-    <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
+    <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body style="background-color: antiquewhite;">
     <h2>Création document(s) / materiel(s)</h2>

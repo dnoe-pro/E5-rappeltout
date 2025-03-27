@@ -8,9 +8,9 @@ require '../Controler/liste.php'//requête retrieve
 <html>
 <head> 
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css"/>
     <title>Suppression d'un document appartenant à un équipement</title>
-    <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
+    <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body style="background-color: antiquewhite;">
 <form method="POST" action="../Controler/deletedoc.php">

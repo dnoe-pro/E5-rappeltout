@@ -6,8 +6,8 @@ include '../Controler/liste.php';
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="../style.css"/>
-        <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
+        <link rel="stylesheet" href="../assets/css/style.css"/>
+        <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
     </head>
     <body style="background-color: antiquewhite;">
 </br>
