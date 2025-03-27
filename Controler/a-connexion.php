@@ -9,7 +9,7 @@ $stmt->bindParam(':nom_utilisateur', $nom_utilisateur);
 $stmt->execute();
 $donnee=$stmt->fetch();
 if ($donnee==null){ 
-header("location:../View/v-connexion.html");
+header("location:../View/v-connexion.php");
 }
 else{
     if(password_verify( $mdp_utilisateur, $donnee["mdp_utilisateur"])){

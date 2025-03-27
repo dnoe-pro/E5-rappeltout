@@ -29,6 +29,7 @@ include $scriptAction;
 $scriptVue = $_SERVER["DOCUMENT_ROOT"] . '/View/v-' . $etat . '.php';
 include $scriptVue;
 
+// index.php?action=""
 ?>
 
 <html>
@@ -42,7 +43,7 @@ include $scriptVue;
         <h1>Bienvenue sur le projet rappeltout</h1>
         <hr/>
         </br></br> <a href="View/listerappels.php" ><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Liste des rappels </button></a>
-        </br></br><a href="View/v-connexion.html" ><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Se connecter </button></a>
+        </br></br><a href="View/v-connexion.php" ><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Se connecter </button></a>
     </body>
 </html>
 

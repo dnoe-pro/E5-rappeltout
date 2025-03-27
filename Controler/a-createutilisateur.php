@@ -10,5 +10,5 @@ $utilisateur = new Utilisateur($nom_utilisateur,$passhash);
 $utilisateur->connex($connexion);
 $utilisateur->CreateUtilisateur();
 
-header("location:../View/createutilisateur.php");
+header("location:../View/a-createutilisateur.php");
 ?>
