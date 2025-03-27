@@ -1,6 +1,6 @@
 <?php
 require '../Model/cdocument.php';
-require '../Controler/connex_db.php';
+require '../Model/connex_db.php';
 require 'verif_session.php';
 
 $valeur_doc = $_POST["valeur"];

@@ -1,6 +1,6 @@
 <?php
 include '../Controler/verif_session.php';//fichier contenant l'accès par url redirigé
-require '../Controler/connex_db.php';//fichier de connexion de bdd
+require '../Model/connex_db.php';//fichier de connexion de bdd
 require '../Controler/datediff.php';//retards de contrôle de materiels non effectués 
 ?>
 <html>

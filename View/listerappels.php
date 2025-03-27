@@ -1,5 +1,5 @@
 <?php 
-require '../Controler/connex_db.php';
+require '../Model/connex_db.php';
 include '../Controler/liste.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel
 ?>
@@ -27,6 +27,6 @@ include '../Controler/liste.php';
 <?php else : ?>
   <div>Aucun rappels</div>
 <?php endif; ?>
-</br>  <a href="index.html" ><button style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Retour </button></a>
+</br>  <a href="index.php" ><button style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Retour </button></a>
 </body>
 </html>

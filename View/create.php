@@ -1,6 +1,6 @@
 <?php
 include '../Controler/verif_session.php';//bloque l'accès par l'url
-require '../Controler/connex_db.php';// appel de la connexion bdd
+require '../Model/connex_db.php';// appel de la connexion bdd
 require '../Controler/listmatsansdoc.php';
 //requête sql projetant les materiaux n'ayant pas de documents attitré
 ?>

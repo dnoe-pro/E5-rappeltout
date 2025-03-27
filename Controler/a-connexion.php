@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "../Controler/connex_db.php";
+require "../Model/connex_db.php";
 $nom_utilisateur=$_POST["nom_utilisateur"];
 $mdp_utilisateur=$_POST["mdp_utilisateur"];
 

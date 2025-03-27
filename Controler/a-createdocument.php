@@ -1,6 +1,6 @@
 <?php
 require '../Model/cdocument.php';
-require '../Controler/connex_db.php';
+require '../Model/connex_db.php';
 
 $date_exp = $_POST["date_exp"];
 $ref_materiel = $_POST["ref_materiel"];
