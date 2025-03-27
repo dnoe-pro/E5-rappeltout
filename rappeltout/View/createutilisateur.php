@@ -6,7 +6,7 @@ require '../Controler/verif_session.php';
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="../Controler/style.css"/>
     <title>Creation d'utilisateurs</title>
-    <br><img src = "../Controler/img/na.png" alt = "photo na" width="120px" height="120px" />
+    <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body style="background-color: antiquewhite;">
     <h2>Créer un Utilisateur</h2>

@@ -17,7 +17,7 @@ $nom_materiel=$Materiel->getNomMat();
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="../Controler/style.css"/>
     <title>Creation de documents pour un materiel</title>
-    <br><img src = "../Controler/img/na.png" alt = "photo na" width="120px" height="120px" />
+    <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body background-color>
 <h2>Recherche correspondant au materiel</h2>
