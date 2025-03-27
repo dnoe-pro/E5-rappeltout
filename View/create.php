@@ -42,7 +42,7 @@ require '../Controler/listmatsansdoc.php';
 
 </br>
 <!--Formulaire de création d'un matériel-->
-<form method="post" action="../Controler/createmateriel.php">
+<form method="post" action="../Controler/C-createMateriel.php">
     <fieldset>
         <legend>Renseigner un materiel</legend>
         <label for="reference_materiel">Numero du materiel :</br><em>*Identification du matériel</em></label>
