@@ -8,7 +8,7 @@ require '../Controler/liste.php'//requête retrieve
 <html>
 <head> 
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../Controler/style.css"/>
+    <link rel="stylesheet" href="../style.css"/>
     <title>Suppression d'un document appartenant à un équipement</title>
     <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
@@ -19,7 +19,8 @@ require '../Controler/liste.php'//requête retrieve
     </br>
    <label for="valeur">Numero de l'équipement :</br></label>
    <input type="text" id="valeur" name="valeur" required>
-</br><input type="submit" cursor="pointer" value="Supprimer" <button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"/> </br></br></button>
+   <br><br>
+<input type="submit" cursor="pointer" value="Supprimer" <button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"/> </br></br></button>
     </fieldset>
 </br>
 </form>

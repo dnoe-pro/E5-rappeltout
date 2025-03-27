@@ -7,7 +7,7 @@ require '../Controler/datediff.php';//retards de contrôle de materiels non effe
     <head>
         <meta charset="utf-8"/>
 		<title>Utilisateur</title>
-        <link rel="stylesheet" href="../Controler/style.css"/>
+        <link rel="stylesheet" href="../style.css"/>
         <br><img src = "../img/na.png" alt = "photo na" width="120px" height="120px" />
     </head>
     <body style="background-color: antiquewhite;">
