@@ -1,6 +1,6 @@
 <?php
 require '../Controler/verif_session.php';//bloque l'accès par l'url
-require '../Controler/connex_db.php';// appel de la connexion bdd
+require '../Controler/c-connex_db.php';// appel de la connexion bdd
 require '../Controler/liste.php'//requête retrieve  
 
 //Supprimer un équipement avec son ou ses documents correspondant

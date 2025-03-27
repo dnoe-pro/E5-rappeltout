@@ -1,5 +1,5 @@
 <?php 
-require '../Controler/connex_db.php';
+require '../Controler/c-connex_db.php';
 include '../Controler/liste.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel
 ?>

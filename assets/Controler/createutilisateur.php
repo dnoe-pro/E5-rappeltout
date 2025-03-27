@@ -1,6 +1,6 @@
 <?php
 require '../Model/cutilisateur.php';
-require '../Controler/connex_db.php';
+require '../Controler/c-connex_db.php';
 
 $nom_utilisateur = $_POST["nom_utilisateur"];
 $mdp_utilisateur = $_POST["mdp_utilisateur"];
