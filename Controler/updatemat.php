@@ -1,6 +1,6 @@
 <?php
 require '../Model/cmateriel.php';
-require '../Controler/c-connex_db.php';
+require '../Controler/connex_db.php';
 require 'verif_session.php';
 
 $valeur_mat = $_POST["valeur"];

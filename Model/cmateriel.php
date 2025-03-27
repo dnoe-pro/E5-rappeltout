@@ -1,5 +1,5 @@
 <?php
-//require('../Controler/c-connex_db.php');
+//require('../Controler/connex_db.php');
 
 class Materiel {
 

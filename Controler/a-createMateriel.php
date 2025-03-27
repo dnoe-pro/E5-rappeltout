@@ -1,6 +1,6 @@
 <?php
 require '../Model/cmateriel.php';
-require '../Controler/c-connex_db.php';
+require '../Controler/connex_db.php';
 
 $ref_materiel = $_POST["reference_materiel"];
 $nom_mat = $_POST["nom_materiel"];

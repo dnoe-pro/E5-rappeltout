@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "../Controler/c-connex_db.php";
+require "../Controler/connex_db.php";
 $nom_utilisateur=$_POST["nom_utilisateur"];
 $mdp_utilisateur=$_POST["mdp_utilisateur"];
 
@@ -17,7 +17,7 @@ else{
         $_SESSION["id_utilisateur"]=$donnee["id_utilisateur"];
         header("location:../View/admin.php");
     }else{
-        header("location:../View/v-connexion.html");
+        header("location:../View/a-connexion.html");
     }
 }
 ?>

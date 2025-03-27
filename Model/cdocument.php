@@ -1,5 +1,5 @@
 <?php
-//require_once('../Controler/c-connex_db.php');
+//require_once('../Controler/connex_db.php');
 
 class Document {
 

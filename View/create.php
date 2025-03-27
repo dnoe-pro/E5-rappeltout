@@ -1,6 +1,6 @@
 <?php
 include '../Controler/verif_session.php';//bloque l'accès par l'url
-require '../Controler/c-connex_db.php';// appel de la connexion bdd
+require '../Controler/connex_db.php';// appel de la connexion bdd
 require '../Controler/listmatsansdoc.php';
 //requête sql projetant les materiaux n'ayant pas de documents attitré
 ?>
@@ -15,7 +15,7 @@ require '../Controler/listmatsansdoc.php';
     <h2>Création document(s) / materiel(s)</h2>
 </hr>  
 <!--Création d'un document-->  
-<form method="post" action="../Controler/c-createdocument.php">
+<form method="post" action="../Controler/a-createdocument.php">
     <fieldset >
         <legend>Créer un document</legend>
         <label for="date_exp">Date du rappel :</label>
@@ -42,7 +42,7 @@ require '../Controler/listmatsansdoc.php';
 
 </br>
 <!--Formulaire de création d'un matériel-->
-<form method="post" action="../Controler/C-createMateriel.php">
+<form method="post" action="../Controler/a-createMateriel.php">
     <fieldset>
         <legend>Renseigner un materiel</legend>
         <label for="reference_materiel">Numero du materiel :</br><em>*Identification du matériel</em></label>
