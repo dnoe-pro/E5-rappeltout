@@ -1,4 +1,6 @@
 <?php
+$etat = "connexion";
+
 session_start();
 require "../Model/connex_db.php";
 $nom_utilisateur=$_POST["nom_utilisateur"];

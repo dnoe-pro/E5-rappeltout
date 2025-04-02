@@ -10,6 +10,6 @@
 
         <hr/>
         </br></br> <a href="View/listerappels.php" ><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Liste des rappels </button></a>
-        </br></br><a href="View/v-connexion.php" ><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Se connecter </button></a>
+        </br></br><a href="index.php?action=connexion"><button class="boutton" style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Se connecter </button></a>
     </body>
 </html>
