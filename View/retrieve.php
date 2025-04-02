@@ -1,5 +1,5 @@
 <?php
-require '../Controler/verif_session.php';//vérifie la connexion 
+require '../Controller/verif_session.php';//vérifie la connexion 
 ?>
 <html>
 <head> 
@@ -11,7 +11,7 @@ require '../Controler/verif_session.php';//vérifie la connexion
 <body style="background-color: antiquewhite;">
     <h2>Créer un document</h2>
 </hr> 
-<form method="POST" action="../Controler/retrievemat.php">
+<form method="POST" action="../Controller/retrievemat.php">
     
     <fieldset>
     <legend>Rechercher un matériel par son identifiant:</legend>

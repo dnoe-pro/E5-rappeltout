@@ -1,5 +1,5 @@
 <?php
-require '../Controler/verif_session.php';
+require '../Controller/verif_session.php';
 ?>
 <html>
 <head> 
@@ -11,7 +11,7 @@ require '../Controler/verif_session.php';
 <body style="background-color: antiquewhite;">
     <h2>Créer un Utilisateur</h2>
 </hr> <!--formulaire de création d'admin-->    
-<form method="post" action="../Controler/a-createutilisateur.php">
+<form method="post" action="../Controller/a-createutilisateur.php">
     <fieldset>
         <legend>Créer un utilisateur admin</legend>
         <label for="nom_utilisateur">Identifiant :</br></label>

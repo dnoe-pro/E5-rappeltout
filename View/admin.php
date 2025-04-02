@@ -1,7 +1,7 @@
 <?php
-include '../Controler/verif_session.php';//fichier contenant l'accès par url redirigé
+include '../Controller/verif_session.php';//fichier contenant l'accès par url redirigé
 require '../Model/connex_db.php';//fichier de connexion de bdd
-require '../Controler/datediff.php';//retards de contrôle de materiels non effectués 
+require '../Controller/datediff.php';//retards de contrôle de materiels non effectués 
 ?>
 <html>
     <head>
@@ -14,7 +14,7 @@ require '../Controler/datediff.php';//retards de contrôle de materiels non effe
         <br/>
         <h2>Bienvenue sur la page administrateur</h2>
 </br></br>
-   <a href ="../Controler/logout.php" onclick="if(!confirm('Voulez-vous vraiment vous déconnecter ?')) return false;">
+   <a href ="../Controller/logout.php" onclick="if(!confirm('Voulez-vous vraiment vous déconnecter ?')) return false;">
             <img src = "../assets/img/logoutna.png" alt= "logo deconnexion" witdh="100" height="100"/>
         </a></br>
         </br></br> <a href="../View/create.php" ><button style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);" button:hover="background-color: rgb(194, 2, 46);color: #ffffff;"> Créer un rappel </button></a>

@@ -1,7 +1,7 @@
 <?php
-require '../Controler/verif_session.php';//bloque l'accès par l'url
+require '../Controller/verif_session.php';//bloque l'accès par l'url
 require '../Model/connex_db.php';// appel de la connexion bdd
-require '../Controler/liste.php'//requête retrieve  
+require '../Controller/liste.php'//requête retrieve  
 
 //Supprimer un équipement avec son ou ses documents correspondant
 ?>
@@ -13,7 +13,7 @@ require '../Controler/liste.php'//requête retrieve
     <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body style="background-color: antiquewhite;">
-<form method="POST" action="../Controler/deletedoc.php">
+<form method="POST" action="../Controller/deletedoc.php">
     <fieldset>
     <legend>Supprimer un équipement ( matériel )</legend>
     </br>

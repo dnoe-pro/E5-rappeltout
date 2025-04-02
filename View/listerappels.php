@@ -1,6 +1,6 @@
 <?php 
 require '../Model/connex_db.php';
-include '../Controler/liste.php';
+include '../Controller/liste.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel
 ?>
 <html>
@@ -11,7 +11,7 @@ include '../Controler/liste.php';
     </head>
     <body style="background-color: antiquewhite;">
 </br>
-        <form method="POST" action="../Controler/listerappels.php" style="margin-left:35%">
+        <form method="POST" action="../Controller/listerappels.php" style="margin-left:35%">
         <h2>Listes des rappels </h2>
         <?php 
         if (!empty($resultat)) : //Affichage de la liste des rappels 

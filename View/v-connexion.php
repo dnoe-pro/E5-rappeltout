@@ -7,7 +7,7 @@
     </head>
     <body style="background-color: antiquewhite;">
         <br/>
-		<form action="../Controler/a-connexion.php" class="form_admin" method="POST" id="formconnex">
+		<form action="../Controller/a-connexion.php" class="form_admin" method="POST" id="formconnex">
         <fieldset>
             <legend><h2>Connexion</h2></legend>
             <label for="nom_utilisateur">Identifiant :</br></label>

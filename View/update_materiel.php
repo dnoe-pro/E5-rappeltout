@@ -1,5 +1,5 @@
 <?php
-require '../Controler/verif_session.php';//vérifie la connexion 
+require '../Controller/verif_session.php';//vérifie la connexion 
 ?>
 <html>
 <head> 
@@ -11,7 +11,7 @@ require '../Controler/verif_session.php';//vérifie la connexion
 <body style="background-color: antiquewhite;">
     <h2>Modifier le nom du materiel</h2>
 </hr> 
-<form method="POST" action="../Controler/updatemat.php">
+<form method="POST" action="../Controller/updatemat.php">
     
 <fieldset>
     <legend>Saisissez le numéro du materiel à modifier  :</legend>
