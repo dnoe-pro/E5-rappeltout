@@ -9,5 +9,5 @@
 // $Materiel->connex($connexion);
 // $Materiel->($valeur_mat);
 
-// header("location:../View/delete_mat.php");
+// header("location:View/delete_mat.php");
 ?>

@@ -1,6 +1,6 @@
 <?php
-require '../Model/cdocument.php';
-require '../Controller/connex_db.php';
+require 'Model/cdocument.php';
+require 'Controller/connex_db.php';
 require 'verif_session.php';
 
 $valeur_doc = $_POST["valeur"];
@@ -11,4 +11,4 @@ $Document = new Document("", "", "");
 $Document->connex($connexion);
 $Document->DeleteDocument($valeur_doc);
 
-header("location:../View/delete_doc.php");
+header("location:View/delete_doc.php");
