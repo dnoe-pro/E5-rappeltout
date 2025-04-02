@@ -1,5 +1,5 @@
 <?php
-require 'headerBar.php';
+require 'navigationBar.php';
 require 'Model/materiel.php';
 
 $ref_materiel = $_POST["reference_materiel"];

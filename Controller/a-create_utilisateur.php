@@ -1,7 +1,7 @@
 <?php
 $action = 'create_utilisateur';
 
-require 'headerBar.php';
+require 'navigationBar.php';
 require 'model/utilisateur.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

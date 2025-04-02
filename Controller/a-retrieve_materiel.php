@@ -2,7 +2,7 @@
 $action = 'retrieve_materiel';
 
 require 'Model/materiel.php';
-require 'headerBar.php';
+require 'navigationBar.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["valeur"])) {

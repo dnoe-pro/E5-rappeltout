@@ -1,7 +1,7 @@
 <?php
 $action = 'update_document';
 
-require 'headerBar.php';
+require 'navigationBar.php';
 require 'model/document.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

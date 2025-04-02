@@ -2,7 +2,7 @@
 $action = 'create_rappel';
 
 require 'Model/materiel.php';
-require 'headerBar.php';
+require 'navigationBar.php';
 
 $materiel = new Materiel('', '');
 $listMateriel = $materiel->FindAllMatWithoutDoc();
