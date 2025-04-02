@@ -1,13 +1,17 @@
+<?php
+require 'Controller/verif_session.php';//bloque l'accès par l'url
+require 'Model/connex_db.php';// appel de la connexion bdd
+?>
 <html>
     <head>
         <meta charset="utf-8"/>
 		<title>Connexion</title>
-        <link rel="stylesheet" href="../assets/css/style.css"/>
-        <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <br><img src = "assets/img/na.png" alt = "photo na" width="120px" height="120px" />
     </head>
     <body style="background-color: antiquewhite;">
         <br/>
-		<form action="../Controller/a-connexion.php" class="form_admin" method="POST" id="formconnex">
+		<form action="index.php?action=admin" class="form_admin" method="POST" id="formconnex">
         <fieldset>
             <legend><h2>Connexion</h2></legend>
             <label for="nom_utilisateur">Identifiant :</br></label>
@@ -20,6 +24,6 @@
         </fieldset>
 </form>
 <br/><br/><br/>
-<a href="../index.php" ><button style="color:rgb(194, 2, 46);background-color:#ffffff; text-align:center; padding:15px; width:200px; border-color: rgb(37, 153, 255); cursor: pointer;"> Retour </button></a>
+<a href="index.php" ><button style="color:rgb(194, 2, 46);background-color:#ffffff; text-align:center; padding:15px; width:200px; border-color: rgb(37, 153, 255); cursor: pointer;"> Retour </button></a>
 	</body>
 </html>

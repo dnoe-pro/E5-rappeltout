@@ -1,17 +1,17 @@
 <?php 
-require '../Model/connex_db.php';
-include '../Controller/liste.php';
+require 'Model/connex_db.php';
+include 'Controller/liste.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel
 ?>
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="../assets/css/style.css"/>
-        <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <br><img src = "assets/img/na.png" alt = "photo na" width="120px" height="120px" />
     </head>
     <body style="background-color: antiquewhite;">
 </br>
-        <form method="POST" action="../Controller/listerappels.php" style="margin-left:35%">
+        <form method="POST" action="index.php?action=listerappels" style="margin-left:35%">
         <h2>Listes des rappels </h2>
         <?php 
         if (!empty($resultat)) : //Affichage de la liste des rappels 
