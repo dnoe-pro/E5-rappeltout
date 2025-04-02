@@ -1,27 +1,16 @@
 <?php
-$etat = "connexion";
+$action = 'connexion';
 
-session_start();
-require "Model/connex_db.php";  
-if (isset($_POST["nom_utilisateur"]) && isset($_POST["mdp_utilisateur"]) ){
-    $nom_utilisateur=$_POST["nom_utilisateur"];
-    $mdp_utilisateur=$_POST["mdp_utilisateur"];
+include 'model/utilisateur.php';
 
-
-    $stmt=$connexion->prepare("SELECT * FROM utilisateur WHERE nom_utilisateur =:nom_utilisateur");
-    $stmt->bindParam(':nom_utilisateur', $nom_utilisateur);
-    $stmt->execute();
-    $donnee=$stmt->fetch();
-    if ($donnee==null){ 
-        header("index.php?action=connexion");
-    }
-    else{
-        if(password_verify( $mdp_utilisateur, $donnee["mdp_utilisateur"])){
-            $_SESSION["nom_utilisateur"]=$donnee["nom_utilisateur"];
-            $_SESSION["id_utilisateur"]=$donnee["id_utilisateur"];
-            header("index.php?action=admin");
-        }else{
-            header("index.php?action=connexion");
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST["nom_utilisateur"]) && isset($_POST["mdp_utilisateur"])) {
+        $utilisateur = new Utilisateur($_POST["nom_utilisateur"], $_POST["mdp_utilisateur"]);
+        $result = $utilisateur->login();
+        if ($result == 'success') {
+            $_SESSION["nom_utilisateur"] = $_POST["nom_utilisateur"];
+            $_SESSION["id_utilisateur"] = $_POST["mdp_utilisateur"];
+            echo '<META HTTP-EQUIV="refresh" content="0;URL=index.php?action=admin">';
         }
     }
 }

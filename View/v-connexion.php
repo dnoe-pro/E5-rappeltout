@@ -1,29 +1,32 @@
-<?php
-require 'Controller/verif_session.php';//bloque l'accès par l'url
-require 'Model/connex_db.php';// appel de la connexion bdd
-?>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-		<title>Connexion</title>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <br><img src = "assets/img/na.png" alt = "photo na" width="120px" height="120px" />
-    </head>
-    <body style="background-color: antiquewhite;">
-        <br/>
-		<form action="index.php?action=admin" class="form_admin" method="POST" id="formconnex">
+
+<head>
+    <title>Connexion</title>
+    <br><img src="Assets/img/na.png" alt="photo na" width="120px" height="120px" />
+</head>
+
+<body style="background-color: antiquewhite;">
+    <br />
+    <form action="index.php?action=connexion" class="form_admin" method="POST" id="formconnex">
         <fieldset>
-            <legend><h2>Connexion</h2></legend>
+            <legend>
+                <h2>Connexion</h2>
+            </legend>
             <label for="nom_utilisateur">Identifiant :</br></label>
-            <input type="text" placeholder="Login" autocomplete="off" id="nom_utilisateur" name="nom_utilisateur" value="moreau" required>
-        </br></br>
+            <input type="text" placeholder="Login" autocomplete="off" id="nom_utilisateur" value="moreau" name="nom_utilisateur"
+                required>
+            </br></br>
             <label for="mdp_utlisateur">Mot de passe :</br></label>
-            <input type="password" placeholder="Password" autocomplete="off" id="mdp_utilisateur" name="mdp_utilisateur" value="test" required>
-    </br></br>
-        <input type="submit"  class="submit" value="Connexion" /></br></br>
+            <input type="password" placeholder="Password" autocomplete="off" id="mdp_utilisateur" value="test" name="mdp_utilisateur"
+                required>
+            </br></br>
+            <input type="submit" class="submit" value="Connexion" /></br></br>
         </fieldset>
-</form>
-<br/><br/><br/>
-<a href="index.php" ><button style="color:rgb(194, 2, 46);background-color:#ffffff; text-align:center; padding:15px; width:200px; border-color: rgb(37, 153, 255); cursor: pointer;"> Retour </button></a>
-	</body>
+    </form>
+    <br /><br /><br />
+    <a href="index.php?action=accueil"><button
+            style="color:rgb(194, 2, 46);background-color:#ffffff; text-align:center; padding:15px; width:200px; border-color: rgb(37, 153, 255); cursor: pointer;">
+            Retour </button></a>
+</body>
+
 </html>

@@ -1,17 +1,17 @@
 <?php 
-require 'Model/connex_db.php';
-include 'Controller/liste.php';
+require '../Controller/connex_db.php';
+include '../Controller/liste.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel
 ?>
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <br><img src = "assets/img/na.png" alt = "photo na" width="120px" height="120px" />
+        <link rel="stylesheet" href="../Controller/style.css"/>
+        <br><img src = "Assets/Assets/img/na.png" alt = "photo na" width="120px" height="120px" />
     </head>
     <body style="background-color: antiquewhite;">
 </br>
-        <form method="POST" action="index.php?action=listerappels" style="margin-left:35%">
+        <form method="POST" action="../Controller/listerappels.php" style="margin-left:35%">
         <h2>Listes des rappels </h2>
         <?php 
         if (!empty($resultat)) : //Affichage de la liste des rappels 
@@ -27,6 +27,6 @@ include 'Controller/liste.php';
 <?php else : ?>
   <div>Aucun rappels</div>
 <?php endif; ?>
-</br>  <a href="index.php" ><button style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Retour </button></a>
+</br>  <a href="index.html" ><button style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);"> Retour </button></a>
 </body>
 </html>

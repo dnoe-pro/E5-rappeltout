@@ -53,3 +53,41 @@ td{
 th{
     color:rgb(194, 2, 46);
 }
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(37, 153, 255);
+}
+
+.header-bar h2 {
+    margin: 0;
+    color: rgb(194, 2, 46);
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgb(37, 153, 255);
+    background-color: #fff;
+    color: rgb(194, 2, 46);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgb(194, 2, 46);
+    color: white;
+}

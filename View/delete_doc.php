@@ -1,6 +1,6 @@
 <?php
 require '../Controller/verif_session.php';//bloque l'accès par l'url
-require '../Model/connex_db.php';// appel de la connexion bdd
+require '../Controller/connex_db.php';// appel de la connexion bdd
 require '../Controller/liste.php'//requête retrieve  
 
 //Supprimer un équipement avec son ou ses documents correspondant
@@ -8,9 +8,9 @@ require '../Controller/liste.php'//requête retrieve
 <html>
 <head> 
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../assets/css/style.css"/>
+    <link rel="stylesheet" href="../Controller/style.css"/>
     <title>Suppression d'un document appartenant à un équipement</title>
-    <br><img src = "../assets/img/na.png" alt = "photo na" width="120px" height="120px" />
+    <br><img src = "Assets/Assets/img/na.png" alt = "photo na" width="120px" height="120px" />
 </head>
 <body style="background-color: antiquewhite;">
 <form method="POST" action="../Controller/deletedoc.php">

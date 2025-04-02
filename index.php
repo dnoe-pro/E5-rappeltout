@@ -1,26 +1,23 @@
 <?php
-
+session_start();
+// Super controleur
 if (!isset($_SESSION["nom_utilisateur"])) {
-        if (isset($_GET['action'])) {
-                $etat = $_GET['action'];
-        }
-        else {
-                $etat = "accueil";
-        }
+    isset($_GET['action']) ? $action = basename($_GET['action']) : $action = 'accueil';
 } else {
-        if (isset($_GET['action'])) {
-                $etat = $_GET['action'];
-        }
-        else {
-                $etat = "admin";
-        }
+    isset($_GET['action']) ? $action = basename($_GET['action']) : $action = 'admin';
 }
-// Script action et vue
-$scriptAction = 'Controller/a-' . $etat . '.php';
+
+$scriptAction = 'Controller/a-' . $action . '.php';
 include $scriptAction;
-$scriptVue = 'View/v-' . $etat . '.php';
+
+$scriptVue = 'view/v-' . $action . '.php';
 include $scriptVue;
 ?>
 
 
-
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Assets/css/style.css" />
+    </head>
+</html>
