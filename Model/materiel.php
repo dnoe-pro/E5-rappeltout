@@ -1,5 +1,4 @@
 <?php
-//require('Controller/connex_db.php');
 
 class Materiel
 {
@@ -64,6 +63,7 @@ class Materiel
         $stmt->execute();
     }
     public function DeleteMateriel() {
+        include 'connex_db.php';
         $req = "DELETE FROM materiel WHERE VALUE (:ref_materiel, :nom_materiel);";
         $stmt = $connexion->prepare($req);
         $stmt->bindParam(':ref_materiel', $this->$reference_materiel);
@@ -95,6 +95,5 @@ class Materiel
         }
         return $listMateriels;
     }
-
 }
 ?>
