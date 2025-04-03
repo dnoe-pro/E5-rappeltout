@@ -10,6 +10,7 @@
       foreach ($resultat as $result) : ?>
       <fieldset> 
         <legend><?php echo $result ['date_exp'] ?></legend>
+        
         <?php echo $result['ref_materiel'] ?> </br>
         <?php echo $result['nom_materiel']?></br>
       </fieldset>

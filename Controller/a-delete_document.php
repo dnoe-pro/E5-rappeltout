@@ -10,7 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $Document = new Document("", "", "");
         $Document->connex($connexion);
         $Document->DeleteDocument($valeur_doc);
-    header("index");
     }
 }
+?>
+
 

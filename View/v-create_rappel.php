@@ -42,8 +42,4 @@
             <input type="submit" class="btn btn-primary" value="Créer" /></br>
         </fieldset>
     </form>
-
-
-
-    </br></br>
 </body>

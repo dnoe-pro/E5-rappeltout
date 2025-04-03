@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nom_utilisateur = $_POST["nom_utilisateur"];
         $mdp_utilisateur = $_POST["mdp_utilisateur"];
         $utilisateur = new Utilisateur($nom_utilisateur, $mdp_utilisateur);
-        $utilisateur->register();
+        $result = $utilisateur->register();
     }
 }
 ?>

@@ -27,6 +27,17 @@ SET time_zone = "+00:00";
 -- Structure de la table `document`
 --
 
+CREATE TABLE `rappel`(
+   `Id_Rappel` INT,
+   `date_expiration` DATETIME,
+   `chemin_fichier` VARCHAR(50),
+   `statut` VARCHAR(50),
+   `Id_Materiel` INT NOT NULL,
+   PRIMARY KEY(Id_Rappel),
+   FOREIGN KEY(Id_Materiel) REFERENCES Materiel(Id_Materiel)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+
 CREATE TABLE `document` (
   `num_doc` int(11) NOT NULL,
   `date_exp` date NOT NULL,

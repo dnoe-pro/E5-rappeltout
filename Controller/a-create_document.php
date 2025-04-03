@@ -11,6 +11,5 @@ try {
 } catch (Exception $e) {
     echo 'Exception reçue : ', $e->getMessage(), "\n";
 }
-
 echo '<META HTTP-EQUIV="refresh" content="0;URL=index.php?action=create_rappel">';
 ?>
