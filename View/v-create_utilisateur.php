@@ -1,6 +1,3 @@
-<html>
-
-
 <body style="background-color: antiquewhite;">
     <h2>Créer un Utilisateur</h2>
     </hr> <!--formulaire de création d'admin-->
@@ -17,9 +14,5 @@
             <input type="submit" class="btn btn-primary" value="create" /></br></br>
         </fieldset>
     </form>
-    <a href="index.php?action=admin"><button class="boutton"
-            style="color:rgb(194, 2, 46); cursor: pointer; background-color:#ffffff;text-align:center;padding:15px;width:200px; border-color: rgb(37, 153, 255);">
-            Retour </button></a>
-</body>
 
-</html>
+</body>

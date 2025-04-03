@@ -1,5 +1,5 @@
 <?php
-$action = 'listerappels';
+$action = 'liste_rappels';
 
 require 'Model/connex_db.php';
 //Tout les materiaux qui sont associés à un document et une date de rappel

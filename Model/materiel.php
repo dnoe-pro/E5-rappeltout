@@ -63,13 +63,13 @@ class Materiel
         $stmt->bindParam(':nom_materiel', $this->nom_materiel);
         $stmt->execute();
     }
-    /*public function DeleteMateriel() {
+    public function DeleteMateriel() {
         $req = "DELETE FROM materiel WHERE VALUE (:ref_materiel, :nom_materiel);";
         $stmt = $connexion->prepare($req);
         $stmt->bindParam(':ref_materiel', $this->$reference_materiel);
         $stmt->bindParam(':nom_materiel', $this->$nom_mat);
         $stmt->execute();
-    } */
+    } 
     public function Findall()
     {
         include 'connex_db.php';
@@ -95,5 +95,6 @@ class Materiel
         }
         return $listMateriels;
     }
+
 }
 ?>

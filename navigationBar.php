@@ -14,7 +14,6 @@
         <a href="index.php?action=retrieve_materiel">Rechercher un équipement</a>
         <a href="index.php?action=update_materiel">Modifier un équipement</a>
         <a href="index.php?action=update_document">Modifier un document</a>
-        <a href="View/delete_doc.php">Supprimer matériel + documents</a>
-        <a href="View/delete_mat.php">Supprimer matériel multiple docs</a>
+        <a href="index.php?action=delete_document">Supprimer matériel + documents</a>
     </nav>
 </div>

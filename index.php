@@ -1,3 +1,7 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+</head>
 <?php
 session_start();
 // Super controleur
@@ -14,10 +18,3 @@ $scriptVue = 'view/v-' . $action . '.php';
 include $scriptVue;
 ?>
 
-
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="Assets/css/style.css" />
-    </head>
-</html>
